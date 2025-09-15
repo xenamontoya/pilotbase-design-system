@@ -13,6 +13,7 @@ const preview: Preview = {
       source: {
         state: 'open', // Show source code by default
       },
+      codePanel: true, // Enable Code panel in addon tabs
     },
 
     // Try to control addon panel order differently

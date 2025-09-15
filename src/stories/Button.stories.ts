@@ -48,13 +48,13 @@ import { Button } from 'pilotbase-design-system';
 
 ## Props
 
-- **title** \`string\` - Button text content
-- **variant** \`'primary' | 'secondary' | 'tertiary' | 'ghost'\` (default: \`'primary'\`) - Visual style variant  
-- **size** \`'small' | 'medium' | 'large'\` (default: \`'medium'\`) - Button size (36px, 48px, 56px)
-- **disabled** \`boolean\` (default: \`false\`) - Disabled state
-- **loading** \`boolean\` (default: \`false\`) - Loading state with spinner
-- **fullWidth** \`boolean\` (default: \`false\`) - Expand to full container width
-- **onPress** \`() => void\` - Press handler function
+- **title** (string) - Button text content
+- **variant** (string) - Visual style: primary, secondary, tertiary, or ghost (default: primary)  
+- **size** (string) - Button size: small, medium, or large (default: medium)
+- **disabled** (boolean) - Disabled state (default: false)
+- **loading** (boolean) - Loading state with spinner (default: false)
+- **fullWidth** (boolean) - Expand to full container width (default: false)
+- **onPress** (function) - Press handler function
 
 ## Source Code
 
