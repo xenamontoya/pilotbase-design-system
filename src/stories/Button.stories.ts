@@ -8,13 +8,6 @@ const meta = {
   component: Button,
   parameters: {
     layout: 'centered',
-    actions: { argTypesRegex: '^on[A-Z].*' },
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/,
-      },
-    },
     docs: {
       description: {
         component: `
@@ -92,7 +85,9 @@ View the complete implementation on [GitHub](https://github.com/xenamontoya/pilo
       description: 'Button text',
     },
   },
-  args: { onPress: fn() },
+  args: { 
+    onPress: fn() // This enables action logging in Actions tab
+  },
 } satisfies Meta<typeof Button>;
 
 export default meta;

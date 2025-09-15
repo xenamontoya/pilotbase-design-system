@@ -1,0 +1,18 @@
+/* Global Storybook styles */
+body, 
+.sidebar-container, 
+.sidebar-item, 
+.addon-panel-header, 
+.addon-panel-container,
+.docs-story, 
+.sbdocs, 
+.sbdocs-content, 
+.sb-doc, 
+.sb-story {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Ensure all text uses system fonts */
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
