@@ -38,7 +38,7 @@ npm run build-storybook
 ```
 
 ### Live Demo
-🌐 **[View Live Design System](https://pilotbase-design-system.vercel.app)** (Updates automatically from main branch)
+🌐 **[View Live Design System](https://pilotbase-design-system.vercel.app/)** (Updates automatically from main branch)
 
 ### Local Development
 ```bash
