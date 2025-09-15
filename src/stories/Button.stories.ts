@@ -252,7 +252,7 @@ export const Ghost: Story = {
   args: {
     title: 'Ghost Button',
     variant: 'ghost',
-    size: "large",
+    size: "medium",
     loading: false,
     style: {},
     testID: ""

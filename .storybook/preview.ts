@@ -12,11 +12,8 @@ const preview: Preview = {
     docs: {
       source: {
         state: 'open', // Show source code by default
-        type: 'code', // Show source code in bottom panel
       },
-      controls: {
-        expanded: true,
-      },
+      codePanel: true, // Enable Code panel in addon tabs
     },
 
     a11y: {
