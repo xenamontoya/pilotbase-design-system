@@ -518,3 +518,4 @@ export const ResponsiveTypography: Story = {
     </div>
   ),
 };
+

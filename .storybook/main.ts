@@ -10,7 +10,18 @@ const config: StorybookConfig = {
     "@storybook/addon-docs",
     "@storybook/addon-onboarding",
     "@storybook/addon-a11y",
-    "@storybook/addon-vitest"
+    "@storybook/addon-vitest",
+    {
+      name: '@storybook/addon-storysource',
+      options: {
+        rule: {
+          include: [require('path').resolve(__dirname, '../src')],
+        },
+        loaderOptions: {
+          prettierConfig: { printWidth: 80, singleQuote: true },
+        },
+      },
+    }
   ],
   "framework": {
     "name": "@storybook/react-vite",
